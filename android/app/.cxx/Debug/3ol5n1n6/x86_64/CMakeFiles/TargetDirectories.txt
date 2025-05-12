@@ -1,0 +1,2 @@
+/home/mikey/StudioProjects/grocery_app/android/app/.cxx/Debug/3ol5n1n6/x86_64/CMakeFiles/edit_cache.dir
+/home/mikey/StudioProjects/grocery_app/android/app/.cxx/Debug/3ol5n1n6/x86_64/CMakeFiles/rebuild_cache.dir
