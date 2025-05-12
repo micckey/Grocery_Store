@@ -1,6 +1,6 @@
 # Grocery App (Flutter + BLoC)
 
-A simple and beginner-friendly grocery shopping app built with Flutter, demonstrating the use of BLoC (Business Logic Component) for state management.
+ demonstrating the use of BLoC (Business Logic Component) for state management.
 
 ---
 

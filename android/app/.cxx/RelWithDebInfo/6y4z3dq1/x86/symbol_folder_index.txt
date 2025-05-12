@@ -1,0 +1,1 @@
+/home/mikey/StudioProjects/grocery_app/build/app/intermediates/cxx/RelWithDebInfo/6y4z3dq1/obj/x86

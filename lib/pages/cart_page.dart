@@ -93,6 +93,10 @@ class CartPage extends StatelessWidget {
                         if (state is CartLoaded) {
                           final items = state.groceryItems;
 
+                          if (items.isEmpty) {
+                            return Center(child: Text("Cart is empty"));
+                          }
+
                           return ListView.builder(
                             physics: BouncingScrollPhysics(),
                             itemCount: items.length,

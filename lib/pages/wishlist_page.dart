@@ -93,6 +93,10 @@ class WishlistPage extends StatelessWidget {
                         if (state is WishlistLoaded) {
                           final items = state.groceryItems;
 
+                          if (items.isEmpty) {
+                            return Center(child: Text("Wishlist is empty"));
+                          }
+
                           return ListView.builder(
                             physics: BouncingScrollPhysics(),
                             itemCount: items.length,

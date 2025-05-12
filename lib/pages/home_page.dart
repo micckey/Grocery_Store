@@ -1,9 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:grocery_app/data/grocery_data.dart';
-import 'package:grocery_app/features/cart/cart_bloc.dart';
 
 import '../models/grocery_item.dart';
 import '../widgets/grocery_card.dart';
