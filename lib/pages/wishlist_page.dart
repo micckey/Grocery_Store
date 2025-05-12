@@ -121,7 +121,10 @@ class WishlistPage extends StatelessWidget {
                     ),
                   ],
                 ),
-              )
+              ),
+              SizedBox(
+                height: 20,
+              ),
             ],
           )),
         );

@@ -12,8 +12,6 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorHeight = MediaQuery.of(context).size.height / 4;
 
-    final itemWidth = (MediaQuery.of(context).size.width / 4).floor();
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -121,6 +119,7 @@ class HomePage extends StatelessWidget {
                       List<GroceryItem> groceryItems = groceryItemsData;
 
                       return GridView.builder(
+                        physics: BouncingScrollPhysics(),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
                           crossAxisSpacing: 10,
@@ -136,6 +135,10 @@ class HomePage extends StatelessWidget {
                       );
                     },
                   ),
+                ),
+
+                SizedBox(
+                  height: 20,
                 ),
 
                 // ItemCard(itemWidth: itemWidth)
