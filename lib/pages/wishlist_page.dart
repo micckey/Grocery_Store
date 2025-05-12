@@ -113,7 +113,7 @@ class WishlistPage extends StatelessWidget {
                             },
                           );
                         } else if (state is WishlistInitial) {
-                          return Center(child: Text("Cart is empty"));
+                          return Center(child: Text("Wishlist is empty"));
                         } else {
                           return Center(child: CircularProgressIndicator());
                         }
